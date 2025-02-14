@@ -35,7 +35,7 @@ header img {
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 20px;
+  padding: 20px 35px;
   padding-bottom: 80px;
 }
 .intro h1 {
