@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: #ffc244ff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 40px;
+}
+.green-link {
+  background-color: #00a082ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 22px;
+  text-decoration: none;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.intro {
+  background-image: url("./images/intro-bg.svg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+.intro h1 {
+  font-size: 58px;
+  margin: 20px 0px;
+}
+.intro p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.action-buttons {
+  margin: 20px 0px;
+  background-color: white;
+  display: flex;
+  gap: 40px;
+  border-radius: 6px;
+  padding: 12px 20px;
+  width: max-content;
+}
+.action-buttons button {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+}
+.action-buttons button:last-child {
+  color: #00a082ff;
+  background-color: rgba(0, 160, 131, 0.203);
+  border-radius: 24px;
+}
+.action-buttons {
+  color: inherit;
+  font-size: 25px;
+}
